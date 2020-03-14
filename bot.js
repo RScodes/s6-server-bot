@@ -2,7 +2,6 @@ const Discord = require("discord.js");
 const bot = new Discord.Client({ fetchAllMembers: true });
 const config = require("./config.json");
 const fs = require("fs");
-const moment = require("moment");
 
 bot.commands = new Discord.Collection();
 bot.aliases = new Discord.Collection();
