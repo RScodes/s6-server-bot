@@ -1,18 +1,14 @@
-const google = require('google');
-const moment = require('moment');
 const Discord = require('discord.js');
-const randomcolor = require('randomcolor');
 
-
-exports.run = (bot, msg, params = []) => {
+exports.run = (bot, message, params = []) => {
   var code = params.join(" ");
   try {
     var evaled = eval(code);
     if (typeof evaled !== 'string')
       evaled = require('util').inspect(evaled);
-    msg.channel.sendMessage("```xl\n" + clean(evaled) + "\n```");
+    message.channel.sendMessage("```xl\n" + clean(evaled) + "\n```");
   } catch (err) {
-    msg.channel.sendMessage("`ERROR` ```xl\n" +
+    message.channel.sendMessage("`ERROR` ```xl\n" +
       clean(err) +
       "\n```");
   }

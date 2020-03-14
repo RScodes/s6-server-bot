@@ -3,7 +3,7 @@ exports.run = (bot, message) => {
   let noto = message.content.split(" ").slice(1).join(" ");
 	  bot.channels.get('687596222491787269').sendMessage("**:information_source: Announcement [" + moment().format("Do MMMM YYYY ") + "]**", {embed: {
 			color: 0x00b7c6,
-			description: noto,
+			title: noto,
 			footer: {
 				text: `${message.author.username}#${message.author.discriminator}`,
 				icon_url: message.author.avatarURL
