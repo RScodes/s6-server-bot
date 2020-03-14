@@ -1,0 +1,13 @@
+{
+  "prefix" : "!!",
+  "token" : "",
+  "creator": {
+    "Jimmy": ["318111966126145536", "226003765889597440"]
+  },
+  "emojis": {
+    "success": "✅",
+    "warn": "⚠",
+    "working": "⚙"
+  },
+  "setgame": "!!help | dev branch"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "staff-mod-bot",
+  "version": "0.0.1",
+  "description": "A bot for the discord server",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RScodes/s6-server-bot.git"
+  },
+  "homepage": "https://github.com/RScodes/s6-server-bot#readme",
+  "author": "KDiaCodes",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "discord.js": "11.0.0",
+    "randomcolor":"0.4.4",
+    "moment":"2.19.3",
+    "google": "2.1.0"
+  }
+}
