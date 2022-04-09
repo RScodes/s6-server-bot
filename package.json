@@ -16,7 +16,7 @@
   "dependencies": {
     "discord.js": "11.0.0",
     "randomcolor": "0.4.4",
-    "moment": "2.19.3",
+    "moment": "2.29.2",
     "google": "2.1.0"
   }
 }
